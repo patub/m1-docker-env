@@ -1,6 +1,6 @@
 # Docker Magento Configuration
 
-Docker running Nginx, PHP-FPM, and MySQL
+Docker running Nginx, PHP-FPM 5.6.31, and MySQL
 
 ## Basic Usage
 
@@ -13,7 +13,24 @@ Docker running Nginx, PHP-FPM, and MySQL
 7. Clone Project di dalam folder web/public
 8. Jalankan `docker-compose up -d` kembali untuk menjalankan instalasi magento 1
 
+## Database
+
 ## Config File
+.env File
+
+`#!/usr/bin/env bash
+
+# Nginx
+NGINX_HOST=local.kawanlama.com (Host name)
+
+# MySQL
+MYSQL_HOST=mysql
+MYSQL_DATABASE=kawanlama (Database name that you want to create)
+MYSQL_ROOT_USER=root
+MYSQL_ROOT_PASSWORD=root
+MYSQL_USER=root
+MYSQL_PASSWORD=root`
+
 
 ## Debuging
 
