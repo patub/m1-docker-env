@@ -20,10 +20,8 @@ Docker running Nginx, PHP-FPM 5.6.31, and MySQL
 
 `#!/usr/bin/env bash
 
-# Nginx
 NGINX_HOST=local.kawanlama.com (Host name)
 
-# MySQL
 MYSQL_HOST=mysql
 MYSQL_DATABASE=kawanlama (Database name that you want to create)
 MYSQL_ROOT_USER=root
